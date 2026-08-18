@@ -1,389 +1,231 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
+  backgroundImage: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
+  },
+
+  backgroundOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.25)',
+  },
+
   safeArea: {
     flex: 1,
-    backgroundColor: '#081225',
+    backgroundColor: 'transparent',
   },
-  container: {
-    flex: 1,
-    backgroundColor: '#081225',
-  },
-  welcomeScroll: {
-    padding: 20,
-    alignItems: 'center',
-  },
-  logoContainer: {
-    alignItems: 'center',
-    marginVertical: 40,
-  },
-  logoSub: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    color: '#E5A93C',
-    letterSpacing: 4,
-  },
-  logoTitle: {
-    fontSize: 38,
-    fontWeight: '900',
-    color: '#FFFFFF',
-    marginTop: 5,
-    textShadowColor: 'rgba(229, 169, 60, 0.4)',
-    textShadowOffset: { width: 0, height: 2 },
-    textShadowRadius: 6,
-  },
-  divider: {
-    width: 60,
-    height: 4,
-    backgroundColor: '#E5A93C',
-    borderRadius: 2,
-    marginVertical: 15,
-  },
-  quoteText: {
-    fontSize: 14,
-    fontStyle: 'italic',
-    color: '#8A99AD',
-    textAlign: 'center',
-    paddingHorizontal: 30,
-  },
-  card: {
-    width: '100%',
-    backgroundColor: '#162239',
-    borderRadius: 16,
-    padding: 20,
-    marginBottom: 20,
-    borderWidth: 1,
-    borderColor: '#24344F',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.2,
-    shadowRadius: 5,
-    elevation: 5,
-  },
-  cardHeaderTitle: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#FFFFFF',
-    marginBottom: 15,
-  },
-  categoriesGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
-    gap: 10,
-  },
-  categoryButton: {
-    width: '48%',
-    backgroundColor: '#0D192C',
-    paddingVertical: 12,
-    paddingHorizontal: 8,
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: '#24344F',
-    alignItems: 'center',
-    marginBottom: 2,
-  },
-  categoryButtonActive: {
-    backgroundColor: '#E5A93C20',
-    borderColor: '#E5A93C',
-  },
-  categoryBtnText: {
-    color: '#A0AEC0',
-    fontSize: 13,
-    fontWeight: '600',
-  },
-  categoryBtnTextActive: {
-    color: '#E5A93C',
-  },
-  countContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    gap: 10,
-  },
-  countButton: {
-    flex: 1,
-    backgroundColor: '#0D192C',
-    paddingVertical: 12,
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: '#24344F',
-    alignItems: 'center',
-  },
-  countButtonActive: {
-    backgroundColor: '#E5A93C20',
-    borderColor: '#E5A93C',
-  },
-  countBtnText: {
-    color: '#A0AEC0',
-    fontSize: 14,
-    fontWeight: '600',
-  },
-  countBtnTextActive: {
-    color: '#E5A93C',
-  },
-  primaryButton: {
-    width: '100%',
-    backgroundColor: '#E5A93C',
-    paddingVertical: 16,
-    borderRadius: 12,
-    alignItems: 'center',
-    marginTop: 10,
-    shadowColor: '#E5A93C',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 5,
-    elevation: 4,
-  },
-  primaryButtonText: {
-    color: '#081225',
-    fontSize: 16,
-    fontWeight: 'bold',
-    letterSpacing: 1,
-  },
+
   gameContainer: {
     flex: 1,
-    padding: 20,
-    justifyContent: 'space-between',
+    width: '100%',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    paddingTop: 35,
+    paddingBottom: 20,
   },
-  gameHeader: {
+
+  logoContainer: {
+    width: '100%',
+    maxWidth: 850,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 15,
+  },
+
+  logo: {
+    width: 190,
+    height: 65,
+  },
+
+  header: {
+    width: '100%',
+    maxWidth: 850,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 10,
+    marginBottom: 12,
   },
+
   questionProgress: {
-    color: '#8A99AD',
+    color: '#D1D9E6',
     fontSize: 14,
     fontWeight: '600',
   },
-  categoryBadge: {
+
+  category: {
     color: '#E5A93C',
     fontSize: 12,
     fontWeight: 'bold',
     textTransform: 'uppercase',
-    marginTop: 2,
+    marginTop: 3,
   },
-  timerContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#E5A93C15',
-    paddingVertical: 6,
-    paddingHorizontal: 12,
-    borderRadius: 20,
+
+  scoreContainer: {
+    backgroundColor: 'rgba(22, 34, 57, 0.95)',
     borderWidth: 1,
-    borderColor: '#E5A93C40',
+    borderColor: '#E5A93C',
+    borderRadius: 20,
+    paddingHorizontal: 13,
+    paddingVertical: 8,
   },
-  timerContainerAlert: {
-    backgroundColor: '#ff525215',
-    borderColor: '#ff525240',
-  },
-  timerText: {
-    color: '#E5A93C',
-    fontWeight: 'bold',
+
+  scoreText: {
+    color: '#FFFFFF',
     fontSize: 14,
-    marginLeft: 5,
+    fontWeight: 'bold',
   },
-  timerTextAlert: {
-    color: '#ff5252',
-  },
+
   progressTrack: {
-    height: 6,
-    backgroundColor: '#24344F',
-    borderRadius: 3,
     width: '100%',
-    marginBottom: 20,
+    maxWidth: 850,
+    height: 7,
+    backgroundColor: 'rgba(36, 52, 79, 0.95)',
+    borderRadius: 4,
     overflow: 'hidden',
+    marginBottom: 18,
   },
+
   progressFill: {
     height: '100%',
     backgroundColor: '#E5A93C',
-    borderRadius: 3,
+    borderRadius: 4,
   },
-  scrollQuizContent: {
+
+  quizScroll: {
+    width: '100%',
+    maxWidth: 850,
+    alignSelf: 'center',
+  },
+
+  quizContent: {
     flexGrow: 1,
+    width: '100%',
+    alignItems: 'center',
     paddingBottom: 20,
   },
+
   questionCard: {
-    backgroundColor: '#162239',
-    borderRadius: 16,
-    padding: 24,
+    width: '100%',
     minHeight: 130,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 20,
+    backgroundColor: 'rgba(22, 34, 57, 0.95)',
     borderWidth: 1,
-    borderColor: '#24344F',
+    borderColor: '#344663',
+    borderRadius: 16,
+    padding: 24,
+    marginBottom: 18,
   },
+
   questionText: {
     color: '#FFFFFF',
     fontSize: 19,
     fontWeight: '700',
-    textAlign: 'center',
     lineHeight: 28,
+    textAlign: 'center',
   },
-  optionsList: {
-    gap: 12,
-    marginBottom: 20,
+
+  optionsContainer: {
+    width: '100%',
+    gap: 11,
+    marginBottom: 16,
   },
-  optionItem: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+
+  option: {
+    width: '100%',
+    minHeight: 58,
+    justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#162239',
-    paddingVertical: 16,
-    paddingHorizontal: 20,
-    borderRadius: 12,
+    backgroundColor: 'rgba(22, 34, 57, 0.95)',
     borderWidth: 1,
-    borderColor: '#24344F',
+    borderColor: '#344663',
+    borderRadius: 12,
+    paddingVertical: 15,
+    paddingHorizontal: 20,
   },
-  optionItemText: {
+
+  optionText: {
     color: '#E2E8F0',
     fontSize: 16,
     fontWeight: '500',
-    flex: 1,
-    marginRight: 10,
+    textAlign: 'center',
   },
+
   optionCorrect: {
-    backgroundColor: '#1B3E2C',
-    borderColor: '#4cd137',
+    backgroundColor: 'rgba(27, 62, 44, 0.96)',
+    borderColor: '#4CD137',
+    borderWidth: 2,
   },
+
   optionIncorrect: {
-    backgroundColor: '#3E1C1C',
-    borderColor: '#ff5252',
+    backgroundColor: 'rgba(62, 28, 28, 0.96)',
+    borderColor: '#FF5252',
+    borderWidth: 2,
   },
+
   optionDimmed: {
-    opacity: 0.4,
+    opacity: 0.5,
   },
+
   optionTextCorrect: {
-    color: '#4cd137',
+    color: '#4CD137',
     fontWeight: 'bold',
   },
+
   optionTextIncorrect: {
-    color: '#ff5252',
+    color: '#FF6B6B',
     fontWeight: 'bold',
   },
-  explanationCard: {
-    backgroundColor: '#1D2A44',
-    padding: 16,
-    borderRadius: 12,
+
+  feedbackCard: {
+    width: '100%',
+    alignItems: 'center',
+    backgroundColor: 'rgba(29, 42, 68, 0.97)',
     borderLeftWidth: 4,
     borderLeftColor: '#E5A93C',
-    marginTop: 10,
+    borderRadius: 12,
+    padding: 16,
   },
-  explanationHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 6,
-  },
-  explanationHeaderTitle: {
-    color: '#FFFFFF',
-    fontWeight: 'bold',
-    fontSize: 14,
-  },
-  explanationText: {
-    color: '#A0AEC0',
-    fontSize: 14,
-    lineHeight: 20,
-  },
-  resultsHeader: {
-    alignItems: 'center',
-    marginVertical: 30,
-    width: '100%',
-  },
-  rankEmoji: {
-    fontSize: 70,
-    marginBottom: 10,
-  },
-  resultsSubtitle: {
-    color: '#8A99AD',
-    fontSize: 13,
-    fontWeight: 'bold',
-    letterSpacing: 2,
-    marginBottom: 5,
-  },
-  rankTitle: {
-    color: '#E5A93C',
-    fontSize: 26,
-    fontWeight: '900',
-    textAlign: 'center',
-    marginBottom: 15,
-  },
-  scoreContainer: {
-    flexDirection: 'row',
-    alignItems: 'baseline',
-    backgroundColor: '#162239',
-    paddingVertical: 10,
-    paddingHorizontal: 24,
-    borderRadius: 30,
-    borderWidth: 1,
-    borderColor: '#24344F',
-    marginBottom: 20,
-  },
-  scoreValue: {
-    color: '#FFFFFF',
-    fontSize: 36,
-    fontWeight: 'bold',
-  },
-  scoreMax: {
-    color: '#8A99AD',
-    fontSize: 18,
-    fontWeight: '600',
-  },
-  rankDescription: {
-    color: '#D2D9E4',
+
+  feedbackTitle: {
     fontSize: 15,
+    fontWeight: 'bold',
     textAlign: 'center',
-    lineHeight: 22,
-    paddingHorizontal: 20,
+    marginBottom: 7,
   },
-  reviewItem: {
-    backgroundColor: '#0D192C',
-    borderRadius: 10,
-    padding: 14,
-    marginBottom: 12,
-    borderLeftWidth: 4,
+
+  correctFeedbackTitle: {
+    color: '#4CD137',
   },
-  reviewItemCorrect: {
-    borderLeftColor: '#4cd137',
+
+  incorrectFeedbackTitle: {
+    color: '#FF6B6B',
   },
-  reviewItemIncorrect: {
-    borderLeftColor: '#ff5252',
-  },
-  reviewItemHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 6,
-  },
-  reviewNumber: {
-    color: '#E5A93C',
-    fontWeight: 'bold',
-    fontSize: 13,
-  },
-  reviewStatus: {
-    fontSize: 11,
-    fontWeight: 'bold',
-    textTransform: 'uppercase',
-  },
-  reviewStatusCorrect: {
-    color: '#4cd137',
-  },
-  reviewStatusIncorrect: {
-    color: '#ff5252',
-  },
-  reviewQuestionText: {
-    color: '#FFFFFF',
+
+  explanationText: {
+    color: '#C4CDDA',
     fontSize: 14,
-    fontWeight: '600',
-    marginBottom: 8,
+    lineHeight: 21,
+    textAlign: 'center',
   },
-  reviewCorrectAnswer: {
-    color: '#8A99AD',
-    fontSize: 13,
+
+  nextButton: {
+    width: '100%',
+    maxWidth: 850,
+    alignItems: 'center',
+    alignSelf: 'center',
+    backgroundColor: '#E5A93C',
+    borderRadius: 12,
+    paddingVertical: 15,
+    marginTop: 8,
   },
-  reviewYourAnswer: {
-    color: '#ff5252',
-    fontSize: 13,
-    marginTop: 2,
+
+  nextButtonText: {
+    color: '#081225',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
 });

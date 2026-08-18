@@ -122,76 +122,142 @@
     "question": "Qual é o nome da droga/planta sobrenatural usada frequentemente para enfraquecer ou repelir lobisomens?",
     "options": [
       "Verbena",
-      "Acônito (Wolfsbane)",
-      "Cinza de Montanha (Mountain Ash)",
+      "Acônito ",
+      "Cinza de Montanha ",
       "Flor de Sangue"
     ],
     "answerIndex": 1,
     "explanation": "O Acônito (Wolfsbane) é a planta clássica do folclore que enfraquece, envenena ou cura lobisomens na série."
   },
-  {
-    "id": "tw-11",
-    "category": "Sobrenatural",
-    "question": "O que é necessário para criar uma barreira intransponível para criaturas sobrenaturais?",
-    "options": [
-      "Prata pura",
-      "Cinza de Montanha (Mountain Ash)",
-      "Água benta",
-      "Sal grosso"
-    ],
-    "answerIndex": 1,
-    "explanation": "A Cinza de Montanha (Mountain Ash) cria uma barreira física e mágica que a maioria das criaturas sobrenaturais não consegue cruzar."
-  },
-  {
-    "id": "tw-12",
-    "category": "Relacionamentos",
-    "question": "Quem é o pai de Stiles Stilinski e xerife de Beacon Hills?",
-    "options": [
-      "Noah Stilinski",
-      "Chris Argent",
-      "Alan Deaton",
-      "Bobby Finstock"
-    ],
-    "answerIndex": 0,
-    "explanation": "Noah Stilinski é o xerife dedicado de Beacon Hills e pai superprotetor de Stiles."
-  },
-  {
-    "id": "tw-13",
-    "category": "Geral",
-    "question": "Qual é a profissão do Dr. Alan Deaton, que secretamente atua como o emissário druida dos Hale?",
-    "options": [
-      "Médico legista",
-      "Veterinário",
-      "Professor de Química",
-      "Psicólogo escolar"
-    ],
-    "answerIndex": 1,
-    "explanation": "Alan Deaton trabalha como veterinário na Clínica Veterinária de Beacon Hills, servindo também como mentor e guia druida de Scott."
-  },
-  {
-    "id": "tw-14",
-    "category": "Sobrenatural",
-    "question": "Como Scott McCall se torna um Alfa sem ter que matar outro Alfa?",
-    "options": [
-      "Ele herda o poder de Derek",
-      "Por pura força de vontade e caráter (Alfa Verdadeiro)",
-      "Através de um ritual com Deaton",
-      "Ao absorver o poder do Nemeton"
-    ],
-    "answerIndex": 1,
-    "explanation": "Scott se torna um raro \"Alfa Verdadeiro\" (True Alpha) através de sua força de vontade, integridade e virtude, sem precisar assassinar ninguém."
-  },
-  {
-    "id": "tw-15",
-    "category": "Relacionamentos",
-    "question": "Malia Tate passa anos na floresta transformada em qual animal antes de ser salva por Scott e Stiles?",
-    "options": [
-      "Loba Ômega",
-      "Raposa",
-      "Coiote (Werecoyote)",
-      "Pantera negra"
-    ],
-    "answerIndex": 2,
-    "explanation": "Malia Tate passou oito anos na floresta vivendo como um coiote antes que Scott e Stiles conseguissem fazê-la retornar à forma humana."
-  }
+{
+  "id": "tw-11",
+  "category": "Geral",
+  "question": "Qual é a profissão de Alan Deaton?",
+  "options": [
+    "Professor",
+    "Veterinário",
+    "Médico",
+    "Delegado"
+  ],
+  "answerIndex": 1,
+  "explanation": "Alan Deaton trabalha como veterinário e também atua como emissário e conselheiro de criaturas sobrenaturais."
+},
+{
+  "id": "tw-12",
+  "category": "Relacionamentos",
+  "question": "Qual personagem é transformado por Scott e passa a ser seu primeiro Beta?",
+  "options": [
+    "Liam Dunbar",
+    "Mason Hewitt",
+    "Theo Raeken",
+    "Corey Bryant"
+  ],
+  "answerIndex": 0,
+  "explanation": "Liam Dunbar é transformado por Scott McCall e passa a fazer parte de sua alcateia."
+},
+{
+  "id": "tw-13",
+  "category": "Sobrenatural",
+  "question": "Qual criatura sobrenatural Jordan Parrish descobre ser?",
+  "options": [
+    "Kanima",
+    "Kitsune",
+    "Cão do Inferno",
+    "Wendigo"
+  ],
+  "answerIndex": 2,
+  "explanation": "Jordan Parrish descobre que é um Hellhound, conhecido em português como Cão do Inferno."
+},
+{
+  "id": "tw-14",
+  "category": "Relacionamentos",
+  "question": "Quem é o pai biológico de Malia Tate?",
+  "options": [
+    "Derek Hale",
+    "Chris Argent",
+    "Peter Hale",
+    "Deucalion"
+  ],
+  "answerIndex": 2,
+  "explanation": "Peter Hale é o pai biológico de Malia Tate."
+},
+{
+  "id": "tw-15",
+  "category": "Sobrenatural",
+  "question": "Que tipo de criatura sobrenatural Malia Tate é?",
+  "options": [
+    "Banshee",
+    "Werecoyote",
+    "Kitsune",
+    "Kanima"
+  ],
+  "answerIndex": 1,
+  "explanation": "Malia Tate é uma Werecoyote e consegue assumir a forma completa de um coiote."
+},
+{
+  "id": "tw-16",
+  "category": "Geral",
+  "question": "Qual é a profissão do pai de Stiles Stilinski?",
+  "options": [
+    "Veterinário",
+    "Professor",
+    "Xerife",
+    "Treinador"
+  ],
+  "answerIndex": 2,
+  "explanation": "O pai de Stiles é o xerife de Beacon Hills."
+},
+{
+  "id": "tw-17",
+  "category": "Sobrenatural",
+  "question": "Qual grupo realiza experimentos e cria as Quimeras na quinta temporada?",
+  "options": [
+    "Os Caçadores",
+    "Os Cavaleiros Fantasmas",
+    "Os Dread Doctors",
+    "A Alcateia Alfa"
+  ],
+  "answerIndex": 2,
+  "explanation": "Os Dread Doctors realizam experimentos para criar Quimeras sobrenaturais."
+},
+{
+  "id": "tw-18",
+  "category": "Sobrenatural",
+  "question": "Qual personagem se torna o hospedeiro da Besta de Gévaudan?",
+  "options": [
+    "Mason Hewitt",
+    "Liam Dunbar",
+    "Corey Bryant",
+    "Theo Raeken"
+  ],
+  "answerIndex": 0,
+  "explanation": "Mason Hewitt é usado como hospedeiro para a Besta de Gévaudan."
+},
+{
+  "id": "tw-19",
+  "category": "Sobrenatural",
+  "question": "Que tipo raro de Alfa Scott McCall se torna?",
+  "options": [
+    "Alfa Demoníaco",
+    "Alfa Verdadeiro",
+    "Alfa Ômega",
+    "Alfa Primordial"
+  ],
+  "answerIndex": 1,
+  "explanation": "Scott se torna um Alfa Verdadeiro por sua força de vontade e caráter, sem precisar tomar o poder de outro Alfa."
+},
+{
+  "id": "tw-20",
+  "category": "Sobrenatural",
+  "question": "Qual material é usado para criar barreiras contra criaturas sobrenaturais?",
+  "options": [
+    "Cinza de montanha",
+    "Ferro",
+    "Sal marinho",
+    "Carvão"
+  ],
+  "answerIndex": 0,
+  "explanation": "A cinza de montanha é utilizada para formar barreiras que dificultam a passagem de criaturas sobrenaturais."
+}
+
 ]

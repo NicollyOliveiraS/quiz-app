@@ -32,7 +32,7 @@ export default function App() {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <Text style={styles.title}>Exemplo de 'useState'</Text>
+        <Text style={styles.title}>Exemplo de &apos;useState&apos;</Text>
 
         {/* Exibindo o valor da variável normal na tela */}
         {/* Atenção: este valor não será atualizado automaticamente! */}
@@ -45,7 +45,7 @@ export default function App() {
 
         <Text style={styles.subTitle}>O que está acontecendo?</Text>
         <Text style={styles.explanation}>
-          Ao clicar no botão, a variável 'contadorNormal' realmente aumenta.
+          Ao clicar no botão, a variável &apos;contadorNormal&apos; realmente aumenta.
           Você pode ver isso no console. No entanto, o componente não sabe que a
           variável mudou, então ele não re-renderiza. O valor na tela permanece
           0, mostrando que variáveis normais não causam atualizações na UI.
@@ -59,9 +59,9 @@ export default function App() {
           onPress={incrementarContadorEstado}
         />
         <Text style={styles.explanation}>
-          Ao clicar no segundo botão, a função 'setContador' é chamada. O React
+          Ao clicar no segundo botão, a função &apos;setContador&apos; é chamada. O React
           percebe a mudança de estado e re-rendeiza o componente, atualizando a
-          tela com o novo valor de 'contador'.
+          tela com o novo valor de &apos;contador&apos;.
         </Text>
 
         <Text>------------------------------</Text>
@@ -72,7 +72,7 @@ export default function App() {
         <Button title="Alternar Status" onPress={alternarAtividade} />
         <Text style={styles.explanation}>
           Um único componente pode ter quantos estados forem necessários para
-          controlar sua interface. Cada chamada a 'useState' cria um par único
+          controlar sua interface. Cada chamada a &apos;useState&apos; cria um par único
           [valor, função de atualização] que o React gerencia independentemente.
         </Text>
         <Text>------------------------------</Text>
