@@ -6,10 +6,8 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "android": {
-        "package":"com.nicollyquiz.development"
-      }
+      "distribution": "internal"
+      
     },
     "preview": {
       "distribution": "internal"
