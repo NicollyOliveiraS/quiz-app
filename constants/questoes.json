@@ -1,0 +1,197 @@
+[
+  {
+    "id": "tw-1",
+    "category": "Geral",
+    "question": "Quem morde Scott McCall na floresta, transformando-o em lobisomem?",
+    "options": [
+      "Derek Hale",
+      "Peter Hale",
+      "Jackson Whittemore",
+      "Deucalion"
+    ],
+    "answerIndex": 1,
+    "explanation": "Peter Hale era o Alfa que mordeu Scott McCall no episódio piloto na floresta de Beacon Hills."
+  },
+  {
+    "id": "tw-2",
+    "category": "Sobrenatural",
+    "question": "Qual criatura mitológica Lydia Martin descobre ser após ter premonições de morte?",
+    "options": [
+      "Kitsune",
+      "Kanima",
+      "Banshee",
+      "Werecoyote"
+    ],
+    "answerIndex": 2,
+    "explanation": "Lydia descobre que é uma Banshee, uma criatura sobrenatural que consegue prever a morte e cujo grito é extremamente poderoso."
+  },
+  {
+    "id": "tw-3",
+    "category": "Esportes",
+    "question": "Qual esporte Scott McCall e Stiles Stilinski jogam no time do colégio Beacon Hills High School?",
+    "options": [
+      "Futebol Americano",
+      "Basquete",
+      "Lacrosse",
+      "Natação"
+    ],
+    "answerIndex": 2,
+    "explanation": "O esporte principal praticado no Beacon Hills High School é o Lacrosse, sob a liderança do excêntrico Treinador Finstock."
+  },
+  {
+    "id": "tw-4",
+    "category": "Relacionamentos",
+    "question": "Quem é o primeiro amor de Scott McCall, que também faz parte de uma família de caçadores de lobisomens?",
+    "options": [
+      "Kira Yukimura",
+      "Allison Argent",
+      "Lydia Martin",
+      "Malia Tate"
+    ],
+    "answerIndex": 1,
+    "explanation": "Allison Argent é o primeiro amor de Scott, cuja família (os Argent) tem uma longa tradição de caçar criaturas sobrenaturais."
+  },
+  {
+    "id": "tw-5",
+    "category": "Sobrenatural",
+    "question": "Qual criatura sobrenatural Jackson Whittemore se torna na 2ª temporada devido a seus problemas de identidade?",
+    "options": [
+      "Kanima",
+      "Wendigo",
+      "Lobisomem Alpha",
+      "Nogitsune"
+    ],
+    "answerIndex": 0,
+    "explanation": "Jackson se transforma no Kanima, uma criatura reptiliana que serve como um instrumento de vingança e precisa de um mestre."
+  },
+  {
+    "id": "tw-6",
+    "category": "Geral",
+    "question": "Qual é o nome da cidade fictícia onde a série Teen Wolf se passa?",
+    "options": [
+      "Mystic Falls",
+      "Beacon Hills",
+      "Riverdale",
+      "Rosewood"
+    ],
+    "answerIndex": 1,
+    "explanation": "Toda a trama de Teen Wolf se passa na misteriosa cidade de Beacon Hills, na Califórnia."
+  },
+  {
+    "id": "tw-7",
+    "category": "Sobrenatural",
+    "question": "Que tipo de Kitsune Kira Yukimura é revelada ser?",
+    "options": [
+      "Kitsune de Fogo",
+      "Kitsune do Trovão",
+      "Kitsune Terrestre",
+      "Kitsune Celestial"
+    ],
+    "answerIndex": 1,
+    "explanation": "Kira é uma Kitsune do Trovão (Thunder Kitsune), o que a permite controlar eletricidade e canalizar energia através de sua espada."
+  },
+  {
+    "id": "tw-8",
+    "category": "Relacionamentos",
+    "question": "Qual objeto icônico Stiles Stilinski usa para se defender e investigar mistérios, mesmo sendo humano?",
+    "options": [
+      "Um taco de beisebol de metal",
+      "Uma besta de caçador",
+      "Uma adaga de prata",
+      "Um spray de acônito"
+    ],
+    "answerIndex": 0,
+    "explanation": "Stiles é famoso por usar seu fiel taco de beisebol de alumínio para se defender contra ameaças sobrenaturais."
+  },
+  {
+    "id": "tw-9",
+    "category": "Sobrenatural",
+    "question": "Quem é o principal antagonista da segunda metade da 3ª temporada, possuindo o corpo de Stiles?",
+    "options": [
+      "O Darach",
+      "O Nogitsune",
+      "Os Dread Doctors",
+      "A Besta de Gevaudan"
+    ],
+    "answerIndex": 1,
+    "explanation": "O Nogitsune, um espírito de raposa sombria (Void Kitsune), possui Stiles Stilinski, criando um dos arcos mais aclamados da série."
+  },
+  {
+    "id": "tw-10",
+    "category": "Geral",
+    "question": "Qual é o nome da droga/planta sobrenatural usada frequentemente para enfraquecer ou repelir lobisomens?",
+    "options": [
+      "Verbena",
+      "Acônito (Wolfsbane)",
+      "Cinza de Montanha (Mountain Ash)",
+      "Flor de Sangue"
+    ],
+    "answerIndex": 1,
+    "explanation": "O Acônito (Wolfsbane) é a planta clássica do folclore que enfraquece, envenena ou cura lobisomens na série."
+  },
+  {
+    "id": "tw-11",
+    "category": "Sobrenatural",
+    "question": "O que é necessário para criar uma barreira intransponível para criaturas sobrenaturais?",
+    "options": [
+      "Prata pura",
+      "Cinza de Montanha (Mountain Ash)",
+      "Água benta",
+      "Sal grosso"
+    ],
+    "answerIndex": 1,
+    "explanation": "A Cinza de Montanha (Mountain Ash) cria uma barreira física e mágica que a maioria das criaturas sobrenaturais não consegue cruzar."
+  },
+  {
+    "id": "tw-12",
+    "category": "Relacionamentos",
+    "question": "Quem é o pai de Stiles Stilinski e xerife de Beacon Hills?",
+    "options": [
+      "Noah Stilinski",
+      "Chris Argent",
+      "Alan Deaton",
+      "Bobby Finstock"
+    ],
+    "answerIndex": 0,
+    "explanation": "Noah Stilinski é o xerife dedicado de Beacon Hills e pai superprotetor de Stiles."
+  },
+  {
+    "id": "tw-13",
+    "category": "Geral",
+    "question": "Qual é a profissão do Dr. Alan Deaton, que secretamente atua como o emissário druida dos Hale?",
+    "options": [
+      "Médico legista",
+      "Veterinário",
+      "Professor de Química",
+      "Psicólogo escolar"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alan Deaton trabalha como veterinário na Clínica Veterinária de Beacon Hills, servindo também como mentor e guia druida de Scott."
+  },
+  {
+    "id": "tw-14",
+    "category": "Sobrenatural",
+    "question": "Como Scott McCall se torna um Alfa sem ter que matar outro Alfa?",
+    "options": [
+      "Ele herda o poder de Derek",
+      "Por pura força de vontade e caráter (Alfa Verdadeiro)",
+      "Através de um ritual com Deaton",
+      "Ao absorver o poder do Nemeton"
+    ],
+    "answerIndex": 1,
+    "explanation": "Scott se torna um raro \"Alfa Verdadeiro\" (True Alpha) através de sua força de vontade, integridade e virtude, sem precisar assassinar ninguém."
+  },
+  {
+    "id": "tw-15",
+    "category": "Relacionamentos",
+    "question": "Malia Tate passa anos na floresta transformada em qual animal antes de ser salva por Scott e Stiles?",
+    "options": [
+      "Loba Ômega",
+      "Raposa",
+      "Coiote (Werecoyote)",
+      "Pantera negra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Malia Tate passou oito anos na floresta vivendo como um coiote antes que Scott e Stiles conseguissem fazê-la retornar à forma humana."
+  }
+]
