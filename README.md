@@ -2,7 +2,9 @@ Quiz App — Teen Wolf
 
 Aplicativo de perguntas e respostas sobre a série Teen Wolf, desenvolvido com React Native, TypeScript e Expo. O jogador escolhe o tamanho da partida, responde às perguntas e recebe um resultado baseado em sua porcentagem de acertos.
 
-![Demonstração do aplicativo](assets/img/video.gif)
+<p align="center">
+	<img src="./assets/img/video.gif" alt="Demonstração do aplicativo" width="360" />
+</p>
 
 Sobre o projeto
 
