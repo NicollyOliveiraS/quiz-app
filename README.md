@@ -149,7 +149,8 @@ npm run lint    # Analisa a qualidade do código
 Build do aplicativo
 
 Acessar o build no Expo
+https://expo.dev/accounts/nicolly77/projects/quiz-app/builds/3ab489b3-a382-4c41-9f3b-94a6df2bc653
 
-Autoria
+Autora Nicolly Oliveira
 
 Desenvolvido por NicollyOliveiraS.
