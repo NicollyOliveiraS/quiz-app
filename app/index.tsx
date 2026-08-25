@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import { Vibration } from 'react-native';
 
 import QuizScreen from '../components/QuizScreen';
 import ResultScreen from '../components/ResultScreen';
@@ -45,8 +46,10 @@ const shuffleArray = <T,>(items: T[]): T[] => {
 };
 
 export default function HomePage() {
+  const autoAdvanceTimerRef = useRef<any>(null);
+
   const [screen, setScreen] =
-    useState<AppScreen>('start');
+    useState<AppScreen>('quiz');
 
   const [
     selectedQuestionCount,
@@ -94,6 +97,14 @@ export default function HomePage() {
     setScore(0);
   };
 
+  useEffect(() => {
+    return () => {
+      if (autoAdvanceTimerRef.current) {
+        clearTimeout(autoAdvanceTimerRef.current);
+      }
+    };
+  }, []);
+
   const handleStart = (questionCount: number) => {
     setSelectedQuestionCount(questionCount);
     prepareQuiz(questionCount);
@@ -107,16 +118,26 @@ export default function HomePage() {
       return;
     }
 
-    if (
-      answerIndex === currentQuestion.answerIndex
-    ) {
+    const isCorrectAnswer = answerIndex === currentQuestion.answerIndex;
+
+    if (isCorrectAnswer) {
       setScore(
         (previousScore) => previousScore + 1
       );
+    } else {
+      Vibration.vibrate(400);
     }
 
     setSelectedAnswerIndex(answerIndex);
     setIsOptionsDisabled(true);
+
+    // Auto-advance after 3 seconds
+    if (autoAdvanceTimerRef.current) {
+      clearTimeout(autoAdvanceTimerRef.current);
+    }
+    autoAdvanceTimerRef.current = setTimeout(() => {
+      handleNextQuestion();
+    }, 3000);
   };
 
   const handleNextQuestion = () => {
@@ -137,6 +158,9 @@ export default function HomePage() {
   };
 
   const handlePlayAgain = () => {
+    if (autoAdvanceTimerRef.current) {
+      clearTimeout(autoAdvanceTimerRef.current);
+    }
     prepareQuiz(selectedQuestionCount);
     setScreen('quiz');
   };

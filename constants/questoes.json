@@ -258,6 +258,265 @@
   ],
   "answerIndex": 0,
   "explanation": "A cinza de montanha é utilizada para formar barreiras que dificultam a passagem de criaturas sobrenaturais."
+},
+{
+  "id": "tw-21",
+  "category": "Geral",
+  "question": "Qual é o primeiro nome verdadeiro de Stiles Stilinski?",
+  "options": [
+    "Mieczyslaw",
+    "Mitchell",
+    "Michael",
+    "Matthew"
+  ],
+  "answerIndex": 0,
+  "explanation": "O nome verdadeiro de Stiles é Mieczyslaw Stilinski, revelado durante a sexta temporada."
+},
+{
+  "id": "tw-22",
+  "category": "Sobrenatural",
+  "question": "Quem é o Darach responsável pelos sacrifícios na primeira metade da terceira temporada?",
+  "options": [
+    "Marin Morrell",
+    "Jennifer Blake",
+    "Kali",
+    "Cora Hale"
+  ],
+  "answerIndex": 1,
+  "explanation": "Jennifer Blake revela ser o Darach, uma emissária que realiza sacrifícios para aumentar seus poderes."
+},
+{
+  "id": "tw-23",
+  "category": "Geral",
+  "question": "Qual é o nome da mãe de Scott McCall?",
+  "options": [
+    "Melissa McCall",
+    "Claudia McCall",
+    "Victoria McCall",
+    "Natalie McCall"
+  ],
+  "answerIndex": 0,
+  "explanation": "Melissa McCall é a mãe de Scott e trabalha como enfermeira no hospital de Beacon Hills."
+},
+{
+  "id": "tw-24",
+  "category": "Sobrenatural",
+  "question": "Quem lidera a Alcateia Alfa que chega a Beacon Hills na terceira temporada?",
+  "options": [
+    "Ennis",
+    "Deucalion",
+    "Ethan",
+    "Aiden"
+  ],
+  "answerIndex": 1,
+  "explanation": "Deucalion é o poderoso Alfa dos Alfas e líder da Alcateia Alfa."
+},
+{
+  "id": "tw-25",
+  "category": "Relacionamentos",
+  "question": "Quem é o irmão mais novo de Derek Hale?",
+  "options": [
+    "Peter Hale",
+    "Theo Raeken",
+    "Isaac Lahey",
+    "Ele não possui um irmão mais novo"
+  ],
+  "answerIndex": 3,
+  "explanation": "Derek não possui um irmão mais novo. Seus irmãos conhecidos são Laura Hale e Cora Hale."
+},
+{
+  "id": "tw-26",
+  "category": "Sobrenatural",
+  "question": "Qual criatura assume a forma de pessoas mortas e provoca medo durante a sexta temporada?",
+  "options": [
+    "Anuk-Ite",
+    "Kanima",
+    "Darach",
+    "Oni"
+  ],
+  "answerIndex": 0,
+  "explanation": "O Anuk-Ite é uma criatura formada por duas metades e capaz de usar o medo contra suas vítimas."
+},
+{
+  "id": "tw-27",
+  "category": "Geral",
+  "question": "Qual é o sobrenome da família de caçadores da qual Allison faz parte?",
+  "options": [
+    "Hale",
+    "Argent",
+    "Lahey",
+    "Dunbar"
+  ],
+  "answerIndex": 1,
+  "explanation": "Allison pertence à família Argent, conhecida por sua tradição de caçar criaturas sobrenaturais."
+},
+{
+  "id": "tw-28",
+  "category": "Relacionamentos",
+  "question": "Quem é o melhor amigo de Scott McCall desde o início da série?",
+  "options": [
+    "Derek Hale",
+    "Liam Dunbar",
+    "Stiles Stilinski",
+    "Jackson Whittemore"
+  ],
+  "answerIndex": 2,
+  "explanation": "Stiles Stilinski é o melhor amigo de Scott e participa de suas aventuras desde o primeiro episódio."
+},
+{
+  "id": "tw-29",
+  "category": "Sobrenatural",
+  "question": "Qual criatura sobrenatural controla Jackson enquanto ele é o Kanima?",
+  "options": [
+    "Matt Daehler",
+    "Gerard Argent",
+    "Peter Hale",
+    "Alan Deaton"
+  ],
+  "answerIndex": 0,
+  "explanation": "Matt Daehler é inicialmente o mestre do Kanima e usa Jackson para realizar sua vingança."
+},
+{
+  "id": "tw-30",
+  "category": "Geral",
+  "question": "Qual é o nome do treinador do time de lacrosse de Beacon Hills?",
+  "options": [
+    "Bobby Finstock",
+    "Noah Stilinski",
+    "Alan Deaton",
+    "Rafael McCall"
+  ],
+  "answerIndex": 0,
+  "explanation": "Bobby Finstock é o excêntrico treinador do time de lacrosse de Beacon Hills."
+},
+{
+  "id": "tw-31",
+  "category": "Sobrenatural",
+  "question": "Que criaturas mascaradas aparecem como servos da mãe de Kira?",
+  "options": [
+    "Oni",
+    "Quimeras",
+    "Berserkers",
+    "Wendigos"
+  ],
+  "answerIndex": 0,
+  "explanation": "Os Oni são guerreiros sobrenaturais invocados por Noshiko Yukimura para procurar o Nogitsune."
+},
+{
+  "id": "tw-32",
+  "category": "Relacionamentos",
+  "question": "Quem é a irmã mais nova de Derek Hale?",
+  "options": [
+    "Laura Hale",
+    "Cora Hale",
+    "Malia Tate",
+    "Erica Reyes"
+  ],
+  "answerIndex": 1,
+  "explanation": "Cora Hale é a irmã mais nova de Derek e uma das sobreviventes do incêndio da família Hale."
+},
+{
+  "id": "tw-33",
+  "category": "Sobrenatural",
+  "question": "Qual personagem consegue ficar invisível por ser uma Quimera?",
+  "options": [
+    "Mason Hewitt",
+    "Corey Bryant",
+    "Liam Dunbar",
+    "Hayden Romero"
+  ],
+  "answerIndex": 1,
+  "explanation": "Corey Bryant é uma Quimera com a habilidade de ficar invisível."
+},
+{
+  "id": "tw-34",
+  "category": "Geral",
+  "question": "Em qual local Scott trabalha no início da série?",
+  "options": [
+    "Hospital de Beacon Hills",
+    "Clínica veterinária",
+    "Delegacia",
+    "Biblioteca da escola"
+  ],
+  "answerIndex": 1,
+  "explanation": "Scott trabalha na clínica veterinária administrada por Alan Deaton."
+},
+{
+  "id": "tw-35",
+  "category": "Sobrenatural",
+  "question": "Quem transforma Isaac Lahey em lobisomem?",
+  "options": [
+    "Scott McCall",
+    "Peter Hale",
+    "Derek Hale",
+    "Deucalion"
+  ],
+  "answerIndex": 2,
+  "explanation": "Derek Hale transforma Isaac para que ele faça parte de sua nova alcateia."
+},
+{
+  "id": "tw-36",
+  "category": "Relacionamentos",
+  "question": "Quem foi o primeiro namorado de Lydia Martin mostrado na série?",
+  "options": [
+    "Aiden",
+    "Stiles Stilinski",
+    "Parrish",
+    "Jackson Whittemore"
+  ],
+  "answerIndex": 3,
+  "explanation": "No começo da série, Lydia mantém um relacionamento com Jackson Whittemore."
+},
+{
+  "id": "tw-37",
+  "category": "Sobrenatural",
+  "question": "Qual integrante da Alcateia Alfa possui a capacidade de fundir o corpo com o irmão?",
+  "options": [
+    "Kali",
+    "Ennis",
+    "Ethan",
+    "Deucalion"
+  ],
+  "answerIndex": 2,
+  "explanation": "Ethan consegue se fundir com seu irmão gêmeo Aiden, formando um lobisomem maior e mais poderoso."
+},
+{
+  "id": "tw-38",
+  "category": "Geral",
+  "question": "Qual é o nome do pai de Scott McCall?",
+  "options": [
+    "Rafael McCall",
+    "Noah McCall",
+    "Chris McCall",
+    "Alan McCall"
+  ],
+  "answerIndex": 0,
+  "explanation": "Rafael McCall é o pai de Scott e trabalha como agente do FBI."
+},
+{
+  "id": "tw-39",
+  "category": "Sobrenatural",
+  "question": "Qual personagem é um híbrido de lobisomem e coiote criado pelos Dread Doctors?",
+  "options": [
+    "Theo Raeken",
+    "Liam Dunbar",
+    "Mason Hewitt",
+    "Brett Talbot"
+  ],
+  "answerIndex": 0,
+  "explanation": "Theo Raeken é uma Quimera criada pelos Dread Doctors com características de lobisomem e coiote."
+},
+{
+  "id": "tw-40",
+  "category": "Relacionamentos",
+  "question": "Por quem Stiles Stilinski é apaixonado desde a infância?",
+  "options": [
+    "Malia Tate",
+    "Kira Yukimura",
+    "Lydia Martin",
+    "Allison Argent"
+  ],
+  "answerIndex": 2,
+  "explanation": "Stiles demonstra ser apaixonado por Lydia Martin desde muito antes dos acontecimentos da série."
 }
-
 ]
