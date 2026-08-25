@@ -6,6 +6,8 @@ Aplicativo de perguntas e respostas sobre a série Teen Wolf, desenvolvido com R
 
 ![Demonstração do aplicativo](./assets/img/video.gif)
 
+[Baixar vídeo](./assets/img/video.gif)
+
 Sobre o projeto
 
 O Quiz App possui um banco com 40 perguntas, divididas em categorias como Geral, Sobrenatural, Esportes e Relacionamentos. Cada pergunta apresenta quatro alternativas, a resposta correta e uma explicação.
