@@ -103,13 +103,13 @@ export default function HomePage() {
     setSelectedAnswerIndex(answerIndex);
     setIsOptionsDisabled(true);
 
-    // Auto-advance after 3 seconds
+    // Auto-advance after 1 second
     if (autoAdvanceTimerRef.current) {
       clearTimeout(autoAdvanceTimerRef.current);
     }
     autoAdvanceTimerRef.current = setTimeout(() => {
       handleNextQuestion();
-    }, 3000);
+    }, 1000);
   };
 
   const handleNextQuestion = () => {
