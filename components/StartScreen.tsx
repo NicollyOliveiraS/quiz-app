@@ -204,6 +204,13 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
 
+  video: {
+    width: '100%',
+    maxWidth: 360,
+    aspectRatio: 16 / 9,
+    marginBottom: 18,
+  },
+
   subtitle: {
     color: '#B8C3D4',
     fontSize: 11,

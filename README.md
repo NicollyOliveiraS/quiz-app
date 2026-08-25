@@ -2,6 +2,8 @@ Quiz App — Teen Wolf
 
 Aplicativo de perguntas e respostas sobre a série Teen Wolf, desenvolvido com React Native, TypeScript e Expo. O jogador escolhe o tamanho da partida, responde às perguntas e recebe um resultado baseado em sua porcentagem de acertos.
 
+![Demonstração do aplicativo](assets/img/video.gif)
+
 Sobre o projeto
 
 O Quiz App possui um banco com 40 perguntas, divididas em categorias como Geral, Sobrenatural, Esportes e Relacionamentos. Cada pergunta apresenta quatro alternativas, a resposta correta e uma explicação.
@@ -109,16 +111,16 @@ EAS Build
 Estrutura principal
 
 app/
-  index.tsx                 # Controle das telas e estado da partida
+index.tsx # Controle das telas e estado da partida
 components/
-  StartScreen.tsx           # Tela inicial e seleção de perguntas
-  QuizScreen.tsx            # Perguntas, alternativas e animações
-  QuizScreen.styles.tsx     # Estilos da tela do quiz
-  ResultScreen.tsx          # Pontuação e classificação final
+StartScreen.tsx # Tela inicial e seleção de perguntas
+QuizScreen.tsx # Perguntas, alternativas e animações
+QuizScreen.styles.tsx # Estilos da tela do quiz
+ResultScreen.tsx # Pontuação e classificação final
 data/
-  questoes.json             # Banco de perguntas
+questoes.json # Banco de perguntas
 assets/
-  img/                      # Imagens, fundo e logotipo
+img/ # Imagens, fundo e logotipo
 
 Como executar
 
@@ -140,11 +142,11 @@ Depois, use o QR Code no Expo Go ou escolha no terminal a opção para abrir no 
 
 Comandos disponíveis
 
-npm start       # Inicia o Expo
+npm start # Inicia o Expo
 npm run android # Abre no Android
-npm run ios     # Abre no iOS
-npm run web     # Abre no navegador
-npm run lint    # Analisa a qualidade do código
+npm run ios # Abre no iOS
+npm run web # Abre no navegador
+npm run lint # Analisa a qualidade do código
 
 Build do aplicativo
 

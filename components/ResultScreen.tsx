@@ -17,12 +17,14 @@ type ResultScreenProps = {
   score: number;
   totalQuestions: number;
   onPlayAgain: () => void;
+  onBackToHome: () => void;
 };
 
 export default function ResultScreen({
   score,
   totalQuestions,
   onPlayAgain,
+  onBackToHome,
 }: ResultScreenProps) {
   const percentage =
     totalQuestions > 0
@@ -150,6 +152,16 @@ export default function ResultScreen({
               >
                 <Text style={styles.playAgainButtonText}>
                   Jogar novamente
+                </Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={styles.backToHomeButton}
+                activeOpacity={0.8}
+                onPress={onBackToHome}
+              >
+                <Text style={styles.backToHomeButtonText}>
+                  Voltar à tela inicial
                 </Text>
               </TouchableOpacity>
             </View>
@@ -324,6 +336,26 @@ const styles = StyleSheet.create({
   playAgainButtonText: {
     color: '#081225',
     fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+
+  backToHomeButton: {
+    width: '100%',
+    maxWidth: 320,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#C1CAD8',
+    borderRadius: 12,
+    paddingVertical: 14,
+    paddingHorizontal: 25,
+    marginTop: 10,
+  },
+
+  backToHomeButtonText: {
+    color: '#FFFFFF',
+    fontSize: 15,
     fontWeight: 'bold',
     textAlign: 'center',
   },

@@ -1,40 +1,30 @@
-import { useState, useRef, useEffect } from 'react';
-import { Vibration } from 'react-native';
+import { useEffect, useRef, useState } from "react";
+import { Vibration } from "react-native";
 
-import QuizScreen from '../components/QuizScreen';
-import ResultScreen from '../components/ResultScreen';
-import StartScreen from '../components/StartScreen';
+import QuizScreen from "../components/QuizScreen";
+import ResultScreen from "../components/ResultScreen";
+import StartScreen from "../components/StartScreen";
 
-import QUESTIONS_RAW from '../constants/questoes.json';
+import QUESTIONS_RAW from "../constants/questoes.json";
 
 export type Question = {
   id: string;
-  category:
-    | 'Geral'
-    | 'Relacionamentos'
-    | 'Esportes'
-    | 'Sobrenatural';
+  category: "Geral" | "Relacionamentos" | "Esportes" | "Sobrenatural";
   question: string;
   options: string[];
   answerIndex: number;
   explanation: string;
 };
 
-type AppScreen = 'start' | 'quiz' | 'result';
+type AppScreen = "start" | "quiz" | "result";
 
 const QUESTIONS = QUESTIONS_RAW as Question[];
 
 const shuffleArray = <T,>(items: T[]): T[] => {
   const shuffled = [...items];
 
-  for (
-    let index = shuffled.length - 1;
-    index > 0;
-    index--
-  ) {
-    const randomIndex = Math.floor(
-      Math.random() * (index + 1)
-    );
+  for (let index = shuffled.length - 1; index > 0; index--) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
 
     [shuffled[index], shuffled[randomIndex]] = [
       shuffled[randomIndex],
@@ -48,47 +38,33 @@ const shuffleArray = <T,>(items: T[]): T[] => {
 export default function HomePage() {
   const autoAdvanceTimerRef = useRef<any>(null);
 
-  const [screen, setScreen] =
-    useState<AppScreen>('quiz');
+  const [screen, setScreen] = useState<AppScreen>("start");
 
-  const [
-    selectedQuestionCount,
-    setSelectedQuestionCount,
-  ] = useState(10);
+  const [selectedQuestionCount, setSelectedQuestionCount] = useState(10);
 
-  const [questions, setQuestions] = useState<Question[]>(
-    () => shuffleArray(QUESTIONS).slice(0, 10)
+  const [questions, setQuestions] = useState<Question[]>(() =>
+    shuffleArray(QUESTIONS).slice(0, 10),
   );
 
-  const [
-    currentQuestionIndex,
-    setCurrentQuestionIndex,
-  ] = useState(0);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
-  const [
-    selectedAnswerIndex,
-    setSelectedAnswerIndex,
-  ] = useState<number | null>(null);
+  const [selectedAnswerIndex, setSelectedAnswerIndex] = useState<number | null>(
+    null,
+  );
 
-  const [
-    isOptionsDisabled,
-    setIsOptionsDisabled,
-  ] = useState(false);
+  const [isOptionsDisabled, setIsOptionsDisabled] = useState(false);
 
   const [score, setScore] = useState(0);
 
-  const currentQuestion =
-    questions[currentQuestionIndex];
+  const currentQuestion = questions[currentQuestionIndex];
 
   const prepareQuiz = (questionCount: number) => {
-    const safeQuestionCount = Math.min(
-      questionCount,
-      QUESTIONS.length
-    );
+    const safeQuestionCount = Math.min(questionCount, QUESTIONS.length);
 
-    const selectedQuestions = shuffleArray(
-      QUESTIONS
-    ).slice(0, safeQuestionCount);
+    const selectedQuestions = shuffleArray(QUESTIONS).slice(
+      0,
+      safeQuestionCount,
+    );
 
     setQuestions(selectedQuestions);
     setCurrentQuestionIndex(0);
@@ -108,12 +84,10 @@ export default function HomePage() {
   const handleStart = (questionCount: number) => {
     setSelectedQuestionCount(questionCount);
     prepareQuiz(questionCount);
-    setScreen('quiz');
+    setScreen("quiz");
   };
 
-  const handleOptionPress = (
-    answerIndex: number
-  ) => {
+  const handleOptionPress = (answerIndex: number) => {
     if (isOptionsDisabled || !currentQuestion) {
       return;
     }
@@ -121,9 +95,7 @@ export default function HomePage() {
     const isCorrectAnswer = answerIndex === currentQuestion.answerIndex;
 
     if (isCorrectAnswer) {
-      setScore(
-        (previousScore) => previousScore + 1
-      );
+      setScore((previousScore) => previousScore + 1);
     } else {
       Vibration.vibrate(400);
     }
@@ -141,19 +113,15 @@ export default function HomePage() {
   };
 
   const handleNextQuestion = () => {
-    const hasNextQuestion =
-      currentQuestionIndex <
-      questions.length - 1;
+    const hasNextQuestion = currentQuestionIndex < questions.length - 1;
 
     if (hasNextQuestion) {
-      setCurrentQuestionIndex(
-        (previousIndex) => previousIndex + 1
-      );
+      setCurrentQuestionIndex((previousIndex) => previousIndex + 1);
 
       setSelectedAnswerIndex(null);
       setIsOptionsDisabled(false);
     } else {
-      setScreen('result');
+      setScreen("result");
     }
   };
 
@@ -162,26 +130,29 @@ export default function HomePage() {
       clearTimeout(autoAdvanceTimerRef.current);
     }
     prepareQuiz(selectedQuestionCount);
-    setScreen('quiz');
+    setScreen("quiz");
   };
 
-  if (screen === 'start') {
+  const handleBackToHome = () => {
+    setScreen("start");
+  };
+
+  if (screen === "start") {
     return (
       <StartScreen
-        totalAvailableQuestions={
-          QUESTIONS.length
-        }
+        totalAvailableQuestions={QUESTIONS.length}
         onStart={handleStart}
       />
     );
   }
 
-  if (screen === 'result') {
+  if (screen === "result") {
     return (
       <ResultScreen
         score={score}
         totalQuestions={questions.length}
         onPlayAgain={handlePlayAgain}
+        onBackToHome={handleBackToHome}
       />
     );
   }
@@ -193,14 +164,10 @@ export default function HomePage() {
   return (
     <QuizScreen
       currentQuestion={currentQuestion}
-      currentQuestionIndex={
-        currentQuestionIndex
-      }
+      currentQuestionIndex={currentQuestionIndex}
       totalQuestions={questions.length}
       score={score}
-      selectedAnswerIndex={
-        selectedAnswerIndex
-      }
+      selectedAnswerIndex={selectedAnswerIndex}
       isOptionsDisabled={isOptionsDisabled}
       onOptionPress={handleOptionPress}
       onNextQuestion={handleNextQuestion}
