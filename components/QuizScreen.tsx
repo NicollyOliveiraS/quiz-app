@@ -50,12 +50,12 @@ export default function QuizScreen({
     Animated.parallel([
       Animated.timing(fadeAnim, {
         toValue: 1,
-        duration: 350,
+        duration: 200,
         useNativeDriver: true,
       }),
       Animated.timing(slideAnim, {
         toValue: 0,
-        duration: 350,
+        duration: 200,
         useNativeDriver: true,
       }),
     ]).start();
